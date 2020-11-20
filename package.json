@@ -2,7 +2,7 @@
   "name": "eslint-dev-environment",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/salmaroohik/eslint-dev-environment.git"
   },
-  "keywords": ["spinners"],
+  "keywords": [
+    "spinners"
+  ],
   "author": "SRK",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/salmaroohik/eslint-dev-environment/issues"
   },
-  "homepage": "https://github.com/salmaroohik/eslint-dev-environment#readme"
+  "homepage": "https://github.com/salmaroohik/eslint-dev-environment#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier-eslint": "^11.0.0"
+  }
 }
